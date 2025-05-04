@@ -1,0 +1,245 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Sumit kumar">
+        <meta name="description" content="My Projects">
+        <title>
+            Projects
+        </title>
+        <link rel="icon" href="./botly_icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./main.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Projects</h1>
+            <img src="./img/1648833098991.jpeg" alt="image" title="Header image here" width="1500" height="375" loading="lazy">
+            <nav>
+                <h2>Main Navigation</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/about.html">About me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <h2>List of projects</h2>
+                <nav>
+                    <h3>Links</h3>
+                    <ul>
+                        <li>
+                            <p>
+                                Download an sample image<a href="./botly_icon.png" download="botly"> here</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Mail me at <a href="mailto:sumitkumar@pm.me"> sumitkumar@pm.me </a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Visit my <a href="https://sumitkumar.dev" target="_blank">website</a>
+                            </p>
+                        </li>
+                    </ul>
+                </nav>
+
+                <section>
+                    <h3>Table</h3>
+                    <table>
+                        <caption>My table</caption>
+                        <thead>
+                            <tr>
+                                <th>SN</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Age</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>1.</th>
+                                <td>Lorem </td>
+                                <td>ipsum</td>
+                                <td>24</td>
+                            </tr>
+                            <tr>
+                                <th>2.</th>
+                                <td>Lorem</td>
+                                <td>ipsum</td>
+                                <td>24</td>
+                            </tr>
+                            <tr>
+                                <th>3.</th>
+                                <td colspan="3">Using all the colums in the table </td>
+                            </tr>
+                            <tr>
+                                <th>4.</th>
+                                <td colspan="2">Using two columns </td>
+                                <td>Remaining block</td>
+                            </tr>
+                            <tr>
+                                <th>5.</th>
+                                <td colspan="2">Using two columns</td> 
+                                <td>1. Lorem ipsum <br> 2. Lorem ipsum<br></td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">6. </th>
+                                <td rowspan="2" colspan="2">Using two rows </td> 
+                                <td>1. Lorem ipsum </td></tr>
+                            <tr>
+                                <td>2. Lorem ipsum </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4">**Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quisquam ex ipsa quam voluptas fugiat atque non deleniti ab soluta in voluptates praesentium, molestias, reprehenderit doloribus maxime porro, impedit asperiores?</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+
+                <section>
+                    <h3>Lorem ipsum </h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic doloribus optio ipsa reiciendis tempora quis asperiores officiis animi rem? Id nulla sit aliquam obcaecati ratione magni enim praesentium voluptatem delectus?
+                        Deserunt odio dolorem, asperiores nesciunt pariatur, quasi, explicabo nemo temporibus quae molestiae iure quo. Itaque, illo! In pariatur eius error incidunt rem ducimus, sequi distinctio qui voluptate deserunt, libero vel.
+                        At expedita esse aliquam cumque repellat temporibus hic. Minus nisi sit illum voluptatibus cumque id repudiandae assumenda harum debitis ut molestias delectus aperiam minima officiis perferendis qui, animi nesciunt dolorum!
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Image block</h3>
+                        <figure>
+                        <img src="./img/mountain-of-light.jpg" alt="mountain of light" title="mountain of light" width="600" height="413" loading="lazy">
+                        <figcaption>
+                                A very random scenic image mountain of light 
+                        </figcaption>
+                        </figure>
+                </section>
+
+                <section>
+                    <h3>Form</h3>
+                    <p>I would really like to hear from you</p>
+                    <form action="https://httpbin.org/get" method="get">                       
+                        <fieldset>
+                            <legend >Contact Me</legend>
+                            <p>
+                                <label for="firstName">First Name:</label>
+                                <input type="text" name="firstName" id="firstName" autocomplete="on" placeholder="Enter your first name" required>
+                            </p>
+                            <p>
+                                <label for="lastName">Last Name:</label>
+                                <input type="text" name="lastName" id="lastName" autocomplete="on" placeholder="Enter your last name" required>
+                            </p>
+                            <p>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" autocomplete="on" placeholder="Enter your email" required>
+                            </p>
+                            <p>
+                                <label for="phone">Phone:</label>
+                                <input type="tel" name="phone" id="phone" autocomplete="on" placeholder="Enter your phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+                            </p>
+                            <p>
+                                <label for="password">Password:</label>
+                                <input type="password" name="password" id="password" autocomplete="on" placeholder="Enter your password" required>
+                            </p>
+                            <!-- <p><input type="submit" value="Submit"></p> -->
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </fieldset>
+                        <br>
+                    </form>
+                    <form action="https://httpbin.org/get" method="get">
+                        <fieldset>
+                            <legend>Radio button choices</legend>
+                            <p>
+                                <label for="choice1">Choice 1</label>
+                                <input type="radio" name="choice" id="choice1" value="choice1">
+                            </p>
+                            <p>
+                                <label for="choice2">Choice 2</label>
+                                <input type="radio" name="choice" id="choice2" value="choice2">
+                            </p>
+                            <p>
+                                <label for="choice3">Choice 3</label>
+                                <input type="radio" name="choice" id="choice3" value="choice3">
+                            </p>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </fieldset>
+                        <br>
+                    </form>
+                    <form action="https://httpbin.org/get" method="get">
+                        <fieldset>
+                            <legend>Checkbox choices</legend>
+                            <p>
+                                <label for="choice4">Choice 1</label>
+                                <input type="checkbox" name="choice" id="choice4" value="choice4">
+                            </p>
+                            <p>
+                                <label for="choice5">Choice 2</label>
+                                <input type="checkbox" name="choice" id="choice5" value="choice5">
+                            </p>
+                            <p>
+                                <label for="choice6">Choice 3</label>
+                                <input type="checkbox" name="choice" id="choice6" value="choice6">
+                            </p>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </fieldset>
+                        <br>
+                    </form>
+                    <form action="https://httpbin.org/get" method="get">
+                        <fieldset>
+                            <legend>Select</legend>
+                            <p>
+                                <label for="choice7">Choice 1</label>
+                                <select name="choice" id="choice7">
+                                    <option value="choice8">Choice 1</option>
+                                    <option value="choice9">Choice 2</option>
+                                    <option value="choice10">Choice 3</option>
+                                </select>
+                            </p>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </fieldset>
+                        <br>
+                    </form>
+                    <form action="https://httpbin.org/get" method="get">
+                        <fieldset>
+                            <legend>Textarea</legend>
+                            <p>
+                                <label for="textarea">Text Area</label>
+                                <br>
+                                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                            </p>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </fieldset>
+                    </form>
+                </section>
+
+
+
+
+            </article>
+        </main>
+            
+        <hr>
+
+        <footer>
+            <p>
+                &lt;&lt;&lt; &copy; 2025 Sumit Kumar. All rights reserved. &gt;&gt;&gt;
+            </p>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+        </footer>
+        
+    </body>
+</html>
