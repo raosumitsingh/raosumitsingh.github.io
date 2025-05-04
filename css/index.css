@@ -1,0 +1,40 @@
+
+html {
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace ;
+}
+body {
+    background-color:#333;
+    color: whitesmoke;
+}
+a {
+    color: navajowhite;
+}
+a:hover {
+    color: lightyellow
+}
+a:visited a:active{
+    color: lightseagreen;
+}
+table {
+    /* border: 1px solid navajowhite; */
+    border-collapse: collapse;
+    width: 100%;
+
+}
+caption{
+    border-top: 2px solid navajowhite;
+    border-left:2px solid navajowhite;
+    border-right: 2px solid navajowhite;
+    border-bottom: 1px solid navajowhite;
+    text-align: center;
+    padding: 8px;}
+th, td {
+    border: 1px solid navajowhite;
+    text-align: center;
+    padding: 8px;
+}
+legend{
+    color: navajowhite;
+    align-items: center;
+}
